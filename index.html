@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Animal Sounds</title>
+
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+   
+<div class = "intro"> 
+
+<h1>Animal Sounds</h1>
+
+<p>Click on image or press the first letter of the animal's name on your keyboard to hear sound</p>
+
+</div>
+
+<div class ="box">
+    
+    <div onclick = "play('1')" data-key="71" class="animal">
+    <h1>Goat</h1>
+    <img src="https://svgsilh.com/svg/2027533.svg"alt="goat">
+    </div>
+    
+    <div onclick = "play('2')" data-key="76" class="animal">
+    <h1>Lion</h1>
+    <img src = "https://4.bp.blogspot.com/-pVLQqJHPETs/XJfGP5e7wxI/AAAAAAAAJgE/yK_9rK9zcXgFn0zrUDR8de5T6DexvOYFACK4BGAYYCw/s640/vector%2Blion%2Banimal.png" alt="lion">
+    </div>
+    
+    <div onclick = "play('3')" data-key="67" class="animal">
+    <h1>Cow</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cowicon.svg/1200px-Cowicon.svg.png" alt="cow">
+    </div>
+    
+    <div onclick = "play('4')" data-key="69" class="animal">
+    <h1>Elephant</h1>
+    <img  src="https://svgsilh.com/svg/1217313.svg" alt="Elephant">
+    </div>
+</div>
+
+<audio data-key="71" id="1" src="sounds/Goat%20Bah-SoundBible.com-959734934.mp3"></audio>
+<audio data-key="76" id="2" src="sounds/Lion-SoundBible.com-621763115.mp3"></audio>
+<audio data-key="67" id="3" src="sounds/Single%20Cow-SoundBible.com-2051754137.mp3"></audio>
+<audio data-key="69" id="4" src="sounds/Elephant-SoundBible.com-551032783.mp3"></audio>
+	
+	<script src="script.js"></script>
+	
+</body>
+</html>

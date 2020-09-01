@@ -1,0 +1,46 @@
+body{
+    background-color: #e94b3cff;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: monospace;
+    color: #321119;
+    
+    
+   
+}
+
+.box{
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.box img{
+    width: 200px;
+    margin: auto;
+    filter: opacity(95%);
+    
+    
+}
+
+.animal{
+    border: 5px solid #321119;
+    height: 18rem;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.style{
+    transform: scale(1.1);
+    border-color: #f2aa4cff;
+    box-shadow: 0 0 4px #f2aa4cff;
+    
+    
+}
+ 
