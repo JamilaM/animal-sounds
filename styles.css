@@ -46,9 +46,12 @@ body{
 
 @media screen and (max-width: 768px){
 .box {
-display: block;
-margin:5px;
+flex: none;
 } 
+
+.animal{
+display: block;
+}
 } 
 
 @media screen and (max-width: 992px){
