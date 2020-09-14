@@ -44,21 +44,28 @@ body{
     
 }
 
-@media screen and (max-width: 768px){
-.box {
-flex: none;
-} 
-
-.animal{
-display: block;
+@media screen and (max-width: 900px){
+    .box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+        
+    }
+    
+        
 }
-} 
 
-@media screen and (max-width: 992px){
-.box {
-display: flex;
-flex: 2;
-} 
-} 
+@media screen and (max-width: 600px){
+    .box{
+    display: grid;
+    grid-template-columns: 80%;
+    grid-gap: 10px;
+        
+    }
+    
+        
+}
+
+
 
  
